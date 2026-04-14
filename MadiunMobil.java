@@ -1,4 +1,4 @@
-class MadiunMobil extends LayananTrasportasi {
+class MadiunMobil extends LayananTransportasi {
 
     private int duaNim;
 
@@ -25,7 +25,7 @@ class MadiunMobil extends LayananTrasportasi {
         if (saldoUser >= total) {
             saldoUser -= total;
             System.out.println("Driver: " + namaDriver);
-            System.out.println("Jarak: " + jaral + " km");
+            System.out.println("Jarak: " + jarak + " km");
             System.out.println("Total: Rp " + total);
             System.out.println("Sisa Saldo: Rp " + saldoUser);
         } else {
