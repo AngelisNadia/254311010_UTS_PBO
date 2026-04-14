@@ -1,4 +1,4 @@
-class MadiunMotor extends LayananTrasportasi {
+class MadiunMotor extends LayananTransportasi {
 
     public MadiunMotor(String namaDriver, double jarak, double saldoUser) {
         super(namaDriver, jarak, saldoUser);
@@ -20,7 +20,7 @@ class MadiunMotor extends LayananTrasportasi {
         if (saldoUser >= total) {
             saldoUser -= total;
             System.out.println("Driver: " + namaDriver);
-            System.out.println("Jarak: " + jaral + " km");
+            System.out.println("Jarak: " + jarak + " km");
             System.out.println("Total: Rp " + total);
             System.out.println("Sisa Saldo: Rp " + saldoUser);
         } else {
