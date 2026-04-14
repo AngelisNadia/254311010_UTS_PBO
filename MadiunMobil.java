@@ -15,8 +15,8 @@ class MadiunMobil extends LayananTransportasi {
     }
 
     public void prosesTransaksi() {
-        String nama = "ANGELIS NASTA";
-        String nim = "254311010";
+        String nama = "DHEA NOVIKA";
+        String nim = "254311009";
 
         System.out.println("=== Transaksi oleh " + nama + " - " + nim + " ===");
 
