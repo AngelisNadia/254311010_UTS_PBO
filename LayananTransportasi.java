@@ -1,4 +1,4 @@
-abstract class LayananTrasportasi {
+abstract class LayananTransportasi {
     protected String namaDriver;
     protected double jarak;
     protected double saldoUser;
@@ -9,7 +9,7 @@ abstract class LayananTrasportasi {
         if (jarak <= 0) {
             this.jarak = 1;
         } else {
-            this.jarak;
+            this.jarak = jarak;
         }
 
         this.saldoUser = saldoUser;
